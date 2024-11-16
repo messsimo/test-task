@@ -18,6 +18,14 @@
                 <a href="">Forum</a>
                 <a href="">Contact</a>
             <nav>
+
+            <div class="about">
+                <span>About Author</span>
+            </div>
+
+            <div class="arrow">
+                <svg width="19" height="33" viewBox="0 0 19 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 28.2857L11.875 16.5L0 4.71429L2.375 0L19 16.5L2.375 33L0 28.2857Z" fill="white"/></svg>
+            </div>
         </div>
 
         <!-- Блок#2 -->

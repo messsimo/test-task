@@ -82,6 +82,36 @@ img {
     color: #F43636;
 }
 
+.header-block .about {
+    position: absolute;
+    top: 255px;
+    left: 425px;
+    background-color: #FF7B7B;
+    height: 190px;
+    width: 50px;
+    border-radius: 20px 0 0 20px;
+}
+
+.header-block .about span {
+    color: white;
+    writing-mode: vertical-rl;
+    text-orientation: mixed; 
+    margin-top: 40px;
+    margin-left: 13px;
+}
+
+.header-block .arrow {
+    position: absolute;
+    bottom: 0;
+    left: 395px;
+    background-color: #FF7B7B;
+    height: 80px;
+    width: 80px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Стили для Блока#2 */
 .body-block {
     width: 33%;
@@ -164,11 +194,12 @@ img {
 
 .body-block .bottom-image {
     background-image: url("../images/cosm2.png");
-    background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat;
-    width: 100%;
     height: 37.5vh; 
+    box-sizing: border-box; 
+}
+
+.body-block .bottom-image h2 {
     color: white;
     font-family: "Cormorant", serif;
     font-weight: 700;

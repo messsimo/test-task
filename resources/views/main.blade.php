@@ -44,6 +44,19 @@
                 <h2>PERFUMES & SCENTS</h2>
             </div>
         </div>
+
+        <!-- Блок#3 -->
+        <div class="footer-block">
+            <div class="footer-block--img">
+                <p>COSMETICS</p>
+            </div>
+
+            <div class="footer-block--text">
+                <p>Makeup Tips, Reviews & Skincare Advice</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>
+                <a href="">READ MORE....</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

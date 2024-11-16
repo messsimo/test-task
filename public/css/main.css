@@ -159,6 +159,7 @@ img {
     height: 131px;
     align-self: center;
     padding-left: 15px;
+    padding-right: 25px;
 }
 
 .body-block .bottom-image {
@@ -175,4 +176,58 @@ img {
     line-height: 28px;
     padding: 25px;
     box-sizing: border-box; 
+}
+
+
+/* Стили для блока#3 */
+.footer-block {
+    width: 33%;
+}
+
+.footer-block .footer-block--img {
+    background-image: url("../images/cosm3.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.footer-block .footer-block--img p {
+    font-family: "Cormorant", serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    position: relative;
+    top: 310px;
+    left: 25px;
+}
+
+.footer-block .footer-block--text {
+    background-color: #FF7B7B;
+    height: 43vh;
+    padding: 25px 50px;
+}
+
+.footer-block .footer-block--text p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.footer-block .footer-block--text span {
+    color: white;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.footer-block .footer-block--text a {
+    color: white;
+    font-size: 16px;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 15px;
 }

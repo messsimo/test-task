@@ -1,5 +1,5 @@
 /* Шрифт */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Базовые стили */
 * {
@@ -18,4 +18,61 @@ button, a {
 
 img {
     max-width: 100%;
+}
+
+/* Стили для Wrapper */
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+/* Стили для Блока#1 */
+.header-block {
+    background-image: url("../images/cosm1.png");
+    height: 100vh;
+    width: 33%;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-block nav {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-block nav a {
+    margin-right: 50px;
+    color: black;
+    font-size: 26px;
+    text-decoration: none;
+    font-family: "Cormorant", serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.header-block nav a.active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -46px; 
+    right: -50%;
+    width: 95px; 
+    height: 3px;
+    background-color: #F43636;
+    border-radius: 2px;
+}
+
+.header-block nav a.active {
+    color: #F43636;
+}
+
+.header-block nav a:first-child {
+    margin-left: 50px;
+}
+
+.header-block nav a:last-child {
+    margin-right: 0px;
 }
